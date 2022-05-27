@@ -1,0 +1,5 @@
+#ignoring files in gitignore
+
+input/
+
+output/
