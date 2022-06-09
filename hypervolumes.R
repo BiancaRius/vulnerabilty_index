@@ -4,6 +4,7 @@ library(gridExtra)
 library(hypervolume)
 library(ggplot2)
 
+#open table with standardized traits
 table = read.csv('/home/bianca/backup/Moara/cmip5_CAETE_DVM2/traits_standard.csv')
 
 location_scenario = as.factor(table$location_scenario)
